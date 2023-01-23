@@ -30,7 +30,7 @@ jobs:
         with:
           buildkitd-flags: --debug
           driver-opts: |
-            image=justinchadwell050/buildkit:containerd-e1a0a46dd7b8758907a23969f62e7e6f14b2f3c9
+            image=justinchadwell050/buildkit:containerd-a7d5c7a0749de44c3bb295db61c5eff16bc8cc32
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
         with:
